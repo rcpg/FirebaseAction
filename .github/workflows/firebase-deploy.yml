@@ -42,7 +42,7 @@ jobs:
         run: npm
         working-directory: "functions"
       - name: "Deploy to Firebase"
-        uses: gelilio/FirebaseAction@master
+        uses: w9jds/firebase-action@master
         with:
           args: deploy --only functions
         env:
