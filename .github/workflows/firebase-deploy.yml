@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: "Install npm packages"
-        run: npm
+        run: npm install
         working-directory: "functions"
       - name: "Deploy to Firebase"
         uses: w9jds/firebase-action@master
